@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mochi's Bubbles Order Online</title>
+    <link rel="stylesheet" href="stylesheet/bubble.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="page">
+        <nav>
+            <ul >
+              <li id="bar"><a href="index.html">Home</a></li>
+              <li id="bar"><a href="menu.html">Menu</a></li>
+              <li id="bar"><a href="order.html">Order Online</a></li>
+              <li id="bar"><a href="locations.html">Locations</a></li>
+              <li id="logo">Mochi's Bubbles</li>
+            </ul>
+        </nav>
+        <header id="order"> Order Online</header>
+        <div id="form">
+            <p>Here you can order Bubble Tea and amazing desserts to your home!</br>
+            We usually charge between $0.5-$2.00 Depending on the location. If you choose
+            pickup there will be no fees. </br>
+            Note: Because we are still starting our business, we can only allow one drink and/or dessert per order,
+            we have limited supplies and delivery employees. Sorry for the inconvenience!
+        </p>
+        <form action="order2.html">
+              <label>First Name
+                <input type="text" name="Name" pattern="[A-Z][a-z]*" required>
+              </label></br>
+              <label>Last Name
+                <input type="text" name="Last Name" pattern="[A-Z][a-z]*" required>
+              </label></br>
+              <label>What time do you want the order?
+              <input type="time">
+            </label></br>
+              <label>Address
+              <input type="text" name="address" required>
+            </label>
+              <label>
+               <label>ZIP Code
+               <input type="text" name="zipcode" pattern="[0-9]{5}"required>
+            </label> </br>
+            <label>Email Address
+                <input type="email" name="email" required>
+            </label></br>
+            <label>Drinks
+                <select>
+                    <option value="brownsugar">Brown Sugar Bubble Tea</option>
+                    <option value="greentea">Green Tea</option>
+                    <option value="strawberrylatte">Strawberry Latte</option>
+                    <option value="milkfoam">Milk Foam Black Coffee</option>
+                    <option value="yogurt">Yogurt Drink</option>
+                    <option value="none">None</option>
+                </select>
+            </label></br>
+            <label>Desserts
+                <select>
+                <option value="cheescake">Cheescake</option>
+                <option value="mochi">Strawberry Mochi</option>
+                <option value="fruit">Fruit Cake</option>
+                <option value="tiramisu">Tiramisu</option>
+                <option value="pancake">Pancakes</option>
+                <option value="none">None</option>
+                </select>
+            </label></br>
+            <label>Toppings
+                <select>
+                <option value="tapioca">Tapicoa Balls</option>
+                <option value="milkfoam">Milk Foam</option>
+                <option value="coconout">Coconout Jelly</option>
+                <option value="cookie">Cookie Crumbs</option>
+                <option value="pearl">White Pearl</option>
+                <option value="none">None</option>
+            </select>
+            </label></br>
+            <label>Additional Instructions
+                <input type="text" name="additional">
+            </label></br>
+                <input type="submit" name="submit">
+              </label></br>
+            </fieldset>
+          </form>
+        </div>
+
+    </div>
+    <footer>
+        ©2022 Mochi's Bubbles. All Rights Reserved.
+        4086 Ferguson Street, Boston, MA, 02110.
+      </br><p id="mobile"> You are seeing the mobile version of the store</p>
+    </footer>
+</body>
+</html>
